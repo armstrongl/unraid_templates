@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>send</Name>
+  <Repository>https://github.com/AirenSoft/OvenPlayersend:latest</Repository>
+  <Registry>https://hub.docker.com/r/airensoft/ovenmediaengine</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://www.ovenmediaengine.com/ovenplayer</Support>
+  <Project>https://github.com/AirenSoft/OvenPlayer</Project>
+  <Overview>OvenMediaEngine OvenPlayer</Overview>
+  <Category>Cloud: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:1935]/</WebUI>
+  <TemplateURL></TemplateURL>
+  <Icon></Icon>
+  <Description></Description>
+  <Config Name="Port" Target="1935" Default="1935" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">RTMP Input</Config>
+  <Config Name="Port" Target="3333" Default="3333" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">LLHLS Streaming</Config>
+  <Config Name="Port" Target="3334" Default="3334" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">LLHLS Streaming</Config>
+  <Config Name="Port" Target="3478" Default="3478" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">WebRTC TCP relay</Config>
+  <Config Name="Port" Target="9000" Default="9000" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">Origin Server (OVT)</Config>
+  <Config Name="Port" Target="9999" Default="9999" Mode="udp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">SRT Input</Config>
+  <Config Name="Port" Target="4000" Default="4000" Mode="udp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">MPEG-2 TS Input</Config>
+
+</Container>
