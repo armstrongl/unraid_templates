@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>send</Name>
-  <Repository>https://github.com/airensoft/ovenplayer:latest</Repository>
+  <Repository>https://github.com/airensoft/ovenplayer</Repository>
   <Registry>https://hub.docker.com/r/airensoft/ovenmediaengine</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
@@ -21,5 +21,4 @@
   <Config Name="Port" Target="9000" Default="9000" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">9000</Config>
   <Config Name="Port" Target="9999" Default="9999" Mode="udp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">9999</Config>
   <Config Name="Port" Target="4000" Default="4000" Mode="udp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">4000</Config>
-
 </Container>
