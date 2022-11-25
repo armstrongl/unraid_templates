@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>send</Name>
-  <Repository>https://github.com/AirenSoft/OvenPlayersend:latest</Repository>
+  <Repository>https://github.com/airensoft/ovenplayer:latest</Repository>
   <Registry>https://hub.docker.com/r/airensoft/ovenmediaengine</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://www.ovenmediaengine.com/ovenplayer</Support>
-  <Project>https://github.com/AirenSoft/OvenPlayer</Project>
+  <Project>https://github.com/airensoft/ovenplayer</Project>
   <Overview>OvenMediaEngine OvenPlayer</Overview>
   <Category>Cloud: Tools:</Category>
   <WebUI>http://[IP]:[PORT:1935]/</WebUI>
